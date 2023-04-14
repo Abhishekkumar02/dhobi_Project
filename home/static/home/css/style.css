@@ -1647,3 +1647,57 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+/* my search box */
+
+.form-box {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #00000033;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.discover-now-btn {
+  background: #5846f9;
+  display: flex;
+  color: #fff;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 0 15px;
+}
+
+body {
+  font-family: inter,sans-serif;
+  font-size: 15px;
+  color: #666;
+  line-height: 24px;
+}
+
+
+/* select.form-control:not([size]):not([multiple]) {
+  height: 50px;
+  margin: 0;
+} */
+
+
+.pl-2, .px-2 {
+  padding-left: 0.5rem!important;
+}
+
+.form-box .form-control, .form-box .form-control:hover {
+  height: 50px;
+  border-color: #9ca3af!important;
+  font-size: 15px;
+  color: #333;
+  box-shadow: none;
+}
+
+
